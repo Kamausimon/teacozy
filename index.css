@@ -4,6 +4,9 @@ body{
     color:seashell;
     background-color:black;
     opacity: 0.9;
+    
+   
+
 }
 /* Header section styling */
 
@@ -76,6 +79,71 @@ padding: 0px;
   height:120px;
 }
 
+/* styling section 2*/
+
+#section2{ 
+    width:1500px;
+    padding: 0px;
+    margin: 0px;
+   
+  
+}
+
+#container-section2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.caption{
+    text-align:center ;
+}
+
+.figure{
+    width:300px;
+    height:200px;
+    padding: 10px;
+
+}
+
+.div1{
+    margin:5px;
+}
+
+.caption{
+    padding: 10px;
+}
+
+/* styling section 3*/ 
+
+#section3{
+    height: 500px;
+    background-image: url(locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:1500px;
+   
+  
+   
+}
+
+#container{
+    display: flex;
+  flex-direction: row;
+  align-content: center;
+
+
+}
+
+.col{
+    width:300px;
+    background-color: black;
+    opacity:1 ;
+    height:200px;
+    text-align: center;
+}
 
 
 
